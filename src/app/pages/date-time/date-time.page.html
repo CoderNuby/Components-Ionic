@@ -1,0 +1,40 @@
+<app-header titulo="Calendario"></app-header>
+
+<ion-content>
+  <ion-list>
+    <ion-list-header>
+      <ion-label>Date</ion-label>
+    </ion-list-header>
+    <ion-item>
+      <ion-label>Calendario</ion-label>
+      <ion-datetime
+      placeholder="Fecha"
+      display-format="DD MMMM YYYY"
+      cancelText="Cancelar"
+      [ngModel]="this.fechaNacimiento.toISOString()"
+      (ionChange)="cambiarFecha($event)"
+      ></ion-datetime>
+    </ion-item>
+
+    <ion-list-header>
+      <ion-label>Restricciones</ion-label>
+    </ion-list-header>
+    <ion-item>
+      <ion-label>Min y Max</ion-label>
+      <ion-datetime
+      display-format="DD MMMM YYYY"
+      placeholder="dd-mm-yyyy"
+      min="2020-01-01"
+      max="2020-07-20"
+      ></ion-datetime>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Años</ion-label>
+      <ion-datetime
+      [pickerOptions]="customPickerOption"
+      [(ngModel)]="customDate"
+      ></ion-datetime>
+    </ion-item>
+  </ion-list>
+</ion-content>

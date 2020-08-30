@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Alert",
+    "path": "/alert",
+    "icon": "american-football-outline"
+  },
+  {
+    "name": "Action",
+    "path": "/action-sheet",
+    "icon": "logo-apple-appstore"
+  },
+  {
+    "name": "Avatar",
+    "path": "/avatar",
+    "icon": "people-outline"
+  },
+  {
+    "name": "Buttons",
+    "path": "/botones",
+    "icon": "radio-button-on"
+  },
+  {
+    "name": "Card",
+    "path": "/card",
+    "icon": "card-outline"
+  },
+  {
+    "name": "Check",
+    "path": "/check",
+    "icon": "checkmark-circle-outline"
+  },
+  {
+    "name": "Date Time",
+    "path": "/date-time",
+    "icon": "calendar-outline"
+  },
+  {
+    "name": "Fab",
+    "path": "/fab",
+    "icon": "car"
+  },
+  {
+    "name": "Grid",
+    "path": "/grid",
+    "icon": "grid"
+  },
+  {
+    "name": "Infinite Scroll",
+    "path": "/infinite-scroll",
+    "icon": "infinite"
+  },
+  {
+    "name": "Input",
+    "path": "/input",
+    "icon": "hammer"
+  },
+  {
+    "name": "List",
+    "path": "/list",
+    "icon": "list"
+  },
+  {
+    "name": "List-Reorder",
+    "path": "/list-reorder",
+    "icon": "reorder-three-outline"
+  },
+  {
+    "name": "Loading",
+    "path": "/loading",
+    "icon": "reload-circle-outline"
+  },
+  {
+    "name": "Modal",
+    "path": "/modal",
+    "icon": "phone-portrait"
+  },
+  {
+    "name": "Popover",
+    "path": "/popover",
+    "icon": "tablet-portrait"
+  },
+  {
+    "name": "Progress Bar",
+    "path": "/progress-bar",
+    "icon": "code-working"
+  },
+  {
+    "name": "Refresher",
+    "path": "/refresher",
+    "icon": "arrow-down-circle-outline"
+  },
+  {
+    "name": "Searchbar",
+    "path": "/searchbar",
+    "icon": "search"
+  },
+  {
+    "name": "Segment",
+    "path": "/segment",
+    "icon": "copy"
+  },
+  {
+    "name": "Slides",
+    "path": "/slides",
+    "icon": "albums"
+  },
+  {
+    "name": "Tabs",
+    "path": "/tabs/perfil",
+    "icon": "cog"
+  }
+]

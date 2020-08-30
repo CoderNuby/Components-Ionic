@@ -1,0 +1,23 @@
+<app-header titulo="SLIDES"></app-header>
+<ion-content>
+  <ion-slides pager="true" class="slide-full" style="height: 100%;">
+    <ion-slide *ngFor="let slide of slides" class="hg">
+      <ion-card  [ngStyle]="{'background-color': slide.color}" style="min-height: 9rem; min-width: 17rem;">
+        <ion-card-header>
+          <ion-card-title>{{ slide.titulo }}</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          {{ slide.desc }}
+        </ion-card-content>
+      </ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-button
+      (click)="comenzar()"
+      expand="full"
+      color="primary"
+      fill="clear"
+      >Comenzar</ion-button>
+    </ion-slide>
+  </ion-slides>
+</ion-content>

@@ -1,0 +1,11 @@
+<app-header titulo="PROGRESS BAR"></app-header>
+
+<ion-content>
+  <ion-progress-bar [value]="progress"></ion-progress-bar>
+
+  <ion-list>
+    <ion-item>
+      <ion-range (ionChange)="cambioRango($event)"></ion-range>
+    </ion-item>
+  </ion-list>
+</ion-content>
